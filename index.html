@@ -21,7 +21,7 @@
     <header class="header">
         <nav class="nav">
             <div class="container">
-                <a href="./consigna.html" class="logo"> <img src="./data/Logocoop.png"></a>
+                <a href="./consigna.html" class="logo"> <img src="https://raw.githubusercontent.com/lincegris/TP1UTNFRBA/main/data/Logocoop.png"></a>
             </div>
             <ul>
                 <li><a class="lnk-contact" href="#contact">Contacto</a></li>
@@ -30,12 +30,54 @@
             </ul>
         </nav>
     </header>
-
+    <h1>Contrata hoy tu seguro</h1> <br>
     <legend>Contacta hoy con un especialista</legend>
-    <div>
-        <h1>probando titulo</h1>
-        <button class="buy-btn"> Comprar Ahora</button>
+    <br>
+    <div class="form-container">
+        <div class="form-group">
+            <label class="input-descr">Nombre</label>
+            <input class="form-input" type="text" name="nombre" id="name-inp" placeholder="Ingrese su nombre" required>
+        </div>
+
+        <div class="form-group">
+            <label class="input-descr">Apellido</label>
+            <input class="form-input" type="text" name="Apellido" id="lastname-inp" placeholder="Ingrese su nombre" required>
+        </div>
+
+        <div class="form-group">
+            <label class="input-descr">E-mail</label>
+            <input class="form-input" type="email" name="mail" id="mail-inp" placeholder="user@domain.com" required>
+        </div>
+
+        <div class="form-group">
+            <label class="input-descr">Teléfono</label>
+            <input class="form-input" type="tel" name="Telefono" id="telnumb-inp" placeholder="11-xxxx-xxxx" pattern="11-[0-9]{4}-[0-9]{4}" required>
+        </div>
+
+        <div class="form-group">
+            <label class="input-descr">Tipo de Seguro</label>
+            <select name="Tipo" id="TypeServ">
+        <option value="Basico">Básico</option>
+        <option value="Intermedio">Intermedio</option>
+        <option value="Premium">Premium</option>
+        </select>
+        </div>
+
+        <section>
+            <div class="form-group">
+                <label class="input-descr">Precio</label>
+
+            </div>
+        </section>
+        <input class="send-btn" type="submit" value="solicitar contacto">
     </div>
+    <footer>
+        <ul>
+            <li><a href="http://">Facebook</a></li>
+            <li><a href="http://">Instagram</a></li>
+            <li><a href="http://">Fotolog</a></li>
+        </ul>
+    </footer>
 </body>
 
 </html>

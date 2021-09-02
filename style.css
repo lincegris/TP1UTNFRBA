@@ -63,8 +63,22 @@ li a:hover {
     transition-duration: 0.7s;
 }
 
-.buy-btn {
-    padding-top: 10px;
+.form-container {
+    background-color: #bd3333;
+    max-width: fit-content;
+}
+
+.form-group {
+    padding: 10px 10px 10px;
+}
+
+.form-input {
+    float: right;
+    padding-left: 20px;
+    justify-content: center;
+}
+
+.send-btn {
     cursor: pointer;
     border-radius: 16px;
     padding: 8px 15px;
@@ -73,12 +87,16 @@ li a:hover {
     box-shadow: 0 9px rgba(153, 153, 153, 0.596);
 }
 
-.buy-btn:hover {
+.send-btn:hover {
     background-color: #bd3333;
 }
 
-.buy-btn:active {
+.send-btn:active {
     background-color: #E63F3F;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
+}
+
+footer {
+    padding-top: 20px;
 }
